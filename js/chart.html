@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dailyAttendance_chart</title>
+</head>
+<body>
+
+  <div id="main" style="width:600px;height:400px;border:1px solid black">
+
+  </div>
+  <script src="echarts.min.js"></script>
+  <script>
+  //初始化echarts实例
+  var myChart=echarts.init(document.getElementById("main"))
+  //设置图表内容 option里面json格式 名字：值
+  var option={
+  title:{
+  text:"部门数据",
+  x:"center",
+  y:"bottom"
+  },
+  tooltip:{show:true},
+  legend:[{
+    name:"考勤记录可视化",
+	icon:"circle"
+  }],
+  xAxis:{
+  type:"category",
+  data:["财务部","工程部","设计部","项目部","秘书部"]
+  },
+  yAxis:{
+  type:"value"
+  },
+  series:[{
+  name:"打卡人数",
+  type:"bar",
+  data:[30,80,50,60,20]
+  },
+	  {
+	  name:"未打卡人数",
+      type:"bar",
+      data:[3,5,2,6,8]
+
+	  }
+
+  ]
+  };
+  //把图表放入实例中
+  myChart.setOption(option);
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>987</width>
+    <height>649</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_3">
+   <item row="0" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QWidget" name="widget" native="true">
+       <layout class="QGridLayout" name="gridLayout_2">
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item row="0" column="1">
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>10</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>10</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QWidget" name="widget_2" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>黑体</family>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <layout class="QGridLayout" name="gridLayout">
+             <item row="5" column="12">
+              <widget class="QPushButton" name="pushButton">
+               <property name="font">
+                <font>
+                 <family>黑体</family>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+	background-color:green;
+	color:white;
+	border-radius:8px;
+	border:2px groove gray;
+	border-style:outset;
+}</string>
+               </property>
+               <property name="text">
+                <string>搜索</string>
+               </property>
+               <property name="checkable">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="6">
+              <widget class="QLabel" name="label_6">
+               <property name="text">
+                <string>至</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="5">
+              <widget class="QDateEdit" name="dateEdit"/>
+             </item>
+             <item row="5" column="8">
+              <widget class="QLabel" name="label">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>部门</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="13">
+              <widget class="QPushButton" name="pushButton_2">
+               <property name="font">
+                <font>
+                 <family>黑体</family>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+	background-color:orange;
+	color:white;
+	border-radius:8px;
+	border:2px groove gray;
+	border-style:outset;
+}</string>
+               </property>
+               <property name="text">
+                <string>重置</string>
+               </property>
+               <property name="checkable">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="3">
+              <widget class="QComboBox" name="comboBox">
+               <item>
+                <property name="text">
+                 <string>打卡情况</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>迟到情况</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>已打卡情况</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>缺勤情况</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>工资扣除数额</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item row="5" column="2">
+              <widget class="QLabel" name="label_3">
+               <property name="text">
+                <string>查询内容</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="9">
+              <widget class="QComboBox" name="comboBox_2">
+               <item>
+                <property name="text">
+                 <string/>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>财务部</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>后勤部</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>运营部</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>技术部</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item row="5" column="7">
+              <widget class="QDateEdit" name="dateEdit_2"/>
+             </item>
+             <item row="5" column="11">
+              <widget class="QComboBox" name="comboBox_3">
+               <item>
+                <property name="text">
+                 <string/>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>张三</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>李四</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>王五</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item row="5" column="10">
+              <widget class="QLabel" name="label_5">
+               <property name="text">
+                <string>姓名</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="4">
+              <widget class="QLabel" name="label_2">
+               <property name="text">
+                <string>查询日期</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QScrollArea" name="scrollArea">
+            <property name="widgetResizable">
+             <bool>true</bool>
+            </property>
+            <widget class="QWidget" name="scrollAreaWidgetContents">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>927</width>
+               <height>545</height>
+              </rect>
+             </property>
+             <widget class="QTableWidget" name="tableWidget">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>961</width>
+                <height>551</height>
+               </rect>
+              </property>
+             </widget>
+            </widget>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widget_4" native="true">
+            <layout class="QGridLayout" name="gridLayout_5">
+             <item row="1" column="1">
+              <widget class="QLabel" name="label_4">
+               <property name="layoutDirection">
+                <enum>Qt::LeftToRight</enum>
+               </property>
+               <property name="text">
+                <string>页数/总页数</string>
+               </property>
+               <property name="scaledContents">
+                <bool>false</bool>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="2">
+              <widget class="QToolButton" name="toolButton">
+               <property name="text">
+                <string>下一页</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QToolButton" name="toolButton_2">
+               <property name="text">
+                <string>上一页</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
